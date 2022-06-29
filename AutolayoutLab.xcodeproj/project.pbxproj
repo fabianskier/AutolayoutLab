@@ -14,6 +14,7 @@
 		07843AA9286BD45000EC0B65 /* SafeAreaViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07843AA8286BD45000EC0B65 /* SafeAreaViewController.swift */; };
 		07843AAC286BDB7A00EC0B65 /* DefaultMarginGuideViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07843AAB286BDB7A00EC0B65 /* DefaultMarginGuideViewController.swift */; };
 		07843AAE286BDDDA00EC0B65 /* LayoutMarginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07843AAD286BDDDA00EC0B65 /* LayoutMarginViewController.swift */; };
+		07843AB0286BF48C00EC0B65 /* ReadableContentGuideViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07843AAF286BF48C00EC0B65 /* ReadableContentGuideViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,7 @@
 		07843AA8286BD45000EC0B65 /* SafeAreaViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SafeAreaViewController.swift; sourceTree = "<group>"; };
 		07843AAB286BDB7A00EC0B65 /* DefaultMarginGuideViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DefaultMarginGuideViewController.swift; sourceTree = "<group>"; };
 		07843AAD286BDDDA00EC0B65 /* LayoutMarginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LayoutMarginViewController.swift; sourceTree = "<group>"; };
+		07843AAF286BF48C00EC0B65 /* ReadableContentGuideViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReadableContentGuideViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -64,6 +66,7 @@
 				07843AA8286BD45000EC0B65 /* SafeAreaViewController.swift */,
 				07843AAB286BDB7A00EC0B65 /* DefaultMarginGuideViewController.swift */,
 				07843AAD286BDDDA00EC0B65 /* LayoutMarginViewController.swift */,
+				07843AAF286BF48C00EC0B65 /* ReadableContentGuideViewController.swift */,
 			);
 			path = AutolayoutLab;
 			sourceTree = "<group>";
@@ -153,6 +156,7 @@
 				07843AAE286BDDDA00EC0B65 /* LayoutMarginViewController.swift in Sources */,
 				07843AA9286BD45000EC0B65 /* SafeAreaViewController.swift in Sources */,
 				07843A93286AAA1E00EC0B65 /* AppDelegate.swift in Sources */,
+				07843AB0286BF48C00EC0B65 /* ReadableContentGuideViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
