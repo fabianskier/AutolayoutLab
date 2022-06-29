@@ -17,7 +17,9 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         window?.makeKeyAndVisible()
         window?.backgroundColor = .systemBackground
         // window?.rootViewController = AnchorViewController()
-        window?.rootViewController = SafeAreaViewController()
+        // window?.rootViewController = SafeAreaViewController()
+        // window?.rootViewController = DefaultMarginGuideViewController()
+        window?.rootViewController = LayoutMarginViewController()
         
         return true
     }

@@ -12,6 +12,8 @@
 		07843A9C286AAA1F00EC0B65 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 07843A9B286AAA1F00EC0B65 /* Assets.xcassets */; };
 		07843A9F286AAA1F00EC0B65 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 07843A9D286AAA1F00EC0B65 /* LaunchScreen.storyboard */; };
 		07843AA9286BD45000EC0B65 /* SafeAreaViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07843AA8286BD45000EC0B65 /* SafeAreaViewController.swift */; };
+		07843AAC286BDB7A00EC0B65 /* DefaultMarginGuideViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07843AAB286BDB7A00EC0B65 /* DefaultMarginGuideViewController.swift */; };
+		07843AAE286BDDDA00EC0B65 /* LayoutMarginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07843AAD286BDDDA00EC0B65 /* LayoutMarginViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +24,8 @@
 		07843A9E286AAA1F00EC0B65 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		07843AA0286AAA1F00EC0B65 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		07843AA8286BD45000EC0B65 /* SafeAreaViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SafeAreaViewController.swift; sourceTree = "<group>"; };
+		07843AAB286BDB7A00EC0B65 /* DefaultMarginGuideViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DefaultMarginGuideViewController.swift; sourceTree = "<group>"; };
+		07843AAD286BDDDA00EC0B65 /* LayoutMarginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LayoutMarginViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +62,8 @@
 				07843A92286AAA1E00EC0B65 /* AppDelegate.swift */,
 				07843A96286AAA1E00EC0B65 /* AnchorViewController.swift */,
 				07843AA8286BD45000EC0B65 /* SafeAreaViewController.swift */,
+				07843AAB286BDB7A00EC0B65 /* DefaultMarginGuideViewController.swift */,
+				07843AAD286BDDDA00EC0B65 /* LayoutMarginViewController.swift */,
 			);
 			path = AutolayoutLab;
 			sourceTree = "<group>";
@@ -143,6 +149,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				07843A97286AAA1E00EC0B65 /* AnchorViewController.swift in Sources */,
+				07843AAC286BDB7A00EC0B65 /* DefaultMarginGuideViewController.swift in Sources */,
+				07843AAE286BDDDA00EC0B65 /* LayoutMarginViewController.swift in Sources */,
 				07843AA9286BD45000EC0B65 /* SafeAreaViewController.swift in Sources */,
 				07843A93286AAA1E00EC0B65 /* AppDelegate.swift in Sources */,
 			);
