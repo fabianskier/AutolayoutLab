@@ -1,5 +1,5 @@
 //
-//  ViewController.swift
+//  AnchorViewController.swift
 //  AutolayoutLab
 //
 //  Created by Oscar Cristaldo on 2022-06-27.
@@ -7,7 +7,7 @@
 
 import UIKit
 
-class ViewController: UIViewController {
+class AnchorViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
