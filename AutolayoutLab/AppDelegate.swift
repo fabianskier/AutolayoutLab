@@ -19,8 +19,9 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         // window?.rootViewController = AnchorViewController()
         // window?.rootViewController = SafeAreaViewController()
         // window?.rootViewController = DefaultMarginGuideViewController()
-        //window?.rootViewController = LayoutMarginViewController()
-        window?.rootViewController = ReadableContentGuideViewController()
+        // window?.rootViewController = LayoutMarginViewController()
+        // window?.rootViewController = ReadableContentGuideViewController()
+        window?.rootViewController = IntrinsicContentSizeInactionViewController()
         
         return true
     }
