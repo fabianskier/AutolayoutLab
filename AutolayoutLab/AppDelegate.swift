@@ -22,7 +22,8 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         // window?.rootViewController = LayoutMarginViewController()
         // window?.rootViewController = ReadableContentGuideViewController()
         // window?.rootViewController = IntrinsicContentSizeInactionViewController()
-        window?.rootViewController = CHCRViewController()
+        // window?.rootViewController = CHCRViewController()
+        window?.rootViewController = ImageViewController()
         
         return true
     }
