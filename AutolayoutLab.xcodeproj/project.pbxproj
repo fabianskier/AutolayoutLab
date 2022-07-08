@@ -17,6 +17,8 @@
 		07843AB0286BF48C00EC0B65 /* ReadableContentGuideViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07843AAF286BF48C00EC0B65 /* ReadableContentGuideViewController.swift */; };
 		07BD464228736C3B00267F10 /* IntrinsicContentSizeInactionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07BD464128736C3B00267F10 /* IntrinsicContentSizeInactionViewController.swift */; };
 		07BD4644287373CC00267F10 /* CHCRViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07BD4643287373CC00267F10 /* CHCRViewController.swift */; };
+		07FEF8C32878B0D800B0335C /* ImageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07FEF8C22878B0D800B0335C /* ImageViewController.swift */; };
+		07FEF8C52878B20200B0335C /* Utils+Color.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07FEF8C42878B20200B0335C /* Utils+Color.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,6 +34,8 @@
 		07843AAF286BF48C00EC0B65 /* ReadableContentGuideViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReadableContentGuideViewController.swift; sourceTree = "<group>"; };
 		07BD464128736C3B00267F10 /* IntrinsicContentSizeInactionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IntrinsicContentSizeInactionViewController.swift; sourceTree = "<group>"; };
 		07BD4643287373CC00267F10 /* CHCRViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CHCRViewController.swift; sourceTree = "<group>"; };
+		07FEF8C22878B0D800B0335C /* ImageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageViewController.swift; sourceTree = "<group>"; };
+		07FEF8C42878B20200B0335C /* Utils+Color.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Utils+Color.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -73,6 +77,8 @@
 				07843AAF286BF48C00EC0B65 /* ReadableContentGuideViewController.swift */,
 				07BD464128736C3B00267F10 /* IntrinsicContentSizeInactionViewController.swift */,
 				07BD4643287373CC00267F10 /* CHCRViewController.swift */,
+				07FEF8C22878B0D800B0335C /* ImageViewController.swift */,
+				07FEF8C42878B20200B0335C /* Utils+Color.swift */,
 			);
 			path = AutolayoutLab;
 			sourceTree = "<group>";
@@ -158,6 +164,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				07843A97286AAA1E00EC0B65 /* AnchorViewController.swift in Sources */,
+				07FEF8C52878B20200B0335C /* Utils+Color.swift in Sources */,
+				07FEF8C32878B0D800B0335C /* ImageViewController.swift in Sources */,
 				07843AAC286BDB7A00EC0B65 /* DefaultMarginGuideViewController.swift in Sources */,
 				07BD4644287373CC00267F10 /* CHCRViewController.swift in Sources */,
 				07843AAE286BDDDA00EC0B65 /* LayoutMarginViewController.swift in Sources */,
