@@ -15,7 +15,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         
         window = UIWindow(frame: UIScreen.main.bounds)
         window?.makeKeyAndVisible()
-        window?.backgroundColor = .systemBackground
+        window?.backgroundColor = .white
         // window?.rootViewController = AnchorViewController()
         // window?.rootViewController = SafeAreaViewController()
         // window?.rootViewController = DefaultMarginGuideViewController()
@@ -23,7 +23,10 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         // window?.rootViewController = ReadableContentGuideViewController()
         // window?.rootViewController = IntrinsicContentSizeInactionViewController()
         // window?.rootViewController = CHCRViewController()
-        window?.rootViewController = ImageViewController()
+        // window?.rootViewController = ImageViewController()
+        
+        let navigatorController = UINavigationController(rootViewController: ChallengeTwoViewController())
+        window?.rootViewController = navigatorController
         
         return true
     }
