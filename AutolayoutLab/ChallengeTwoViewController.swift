@@ -54,18 +54,18 @@ class ChallengeTwoViewController: UIViewController {
             playButton.heightAnchor.constraint(equalToConstant: buttonHeight),
             playButton.widthAnchor.constraint(equalToConstant: buttonHeight),
             
-            previewStartLabel.leadingAnchor.constraint(equalTo: playButton.trailingAnchor, constant: margin8),
             previewStartLabel.centerYAnchor.constraint(equalTo: playButton.centerYAnchor),
+            previewStartLabel.leadingAnchor.constraint(equalTo: playButton.trailingAnchor, constant: margin8),
             
-            progressView.leadingAnchor.constraint(equalTo: previewStartLabel.trailingAnchor, constant: margin8),
             progressView.centerYAnchor.constraint(equalTo: playButton.centerYAnchor),
-            progressView.trailingAnchor.constraint(equalTo: previewEndLabel.leadingAnchor, constant: -margin8),
+            progressView.leadingAnchor.constraint(equalTo: previewStartLabel.trailingAnchor, constant: margin8),
             
-            previewEndLabel.trailingAnchor.constraint(equalTo: view.safeAreaLayoutGuide.trailingAnchor, constant: -margin8),
             previewEndLabel.centerYAnchor.constraint(equalTo: playButton.centerYAnchor),
+            previewEndLabel.leadingAnchor.constraint(equalTo: progressView.trailingAnchor, constant: margin8),
+            previewEndLabel.trailingAnchor.constraint(equalTo: view.safeAreaLayoutGuide.trailingAnchor, constant: -margin8),
             
-            spotifyButton.topAnchor.constraint(equalTo: playButton.bottomAnchor, constant: margin8*4),
             spotifyButton.centerXAnchor.constraint(equalTo: view.centerXAnchor),
+            spotifyButton.topAnchor.constraint(equalTo: progressView.bottomAnchor, constant: margin8*4),
             spotifyButton.heightAnchor.constraint(equalToConstant: buttonHeight)
         ])
     }
