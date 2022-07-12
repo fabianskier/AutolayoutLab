@@ -7,7 +7,7 @@
 
 import UIKit
 
-class ChallengeTwoViewController: UIViewController {
+class IntrinsicContentSizeChallengeViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
