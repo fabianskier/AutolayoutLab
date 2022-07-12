@@ -19,8 +19,10 @@
 		07BD4644287373CC00267F10 /* CHCRViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07BD4643287373CC00267F10 /* CHCRViewController.swift */; };
 		07FEF8C32878B0D800B0335C /* ImageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07FEF8C22878B0D800B0335C /* ImageViewController.swift */; };
 		07FEF8C52878B20200B0335C /* Utils+Color.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07FEF8C42878B20200B0335C /* Utils+Color.swift */; };
-		07FEF8FB287B4ECF00B0335C /* ChallengeTwoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07FEF8FA287B4ECF00B0335C /* ChallengeTwoViewController.swift */; };
+		07FEF8FB287B4ECF00B0335C /* IntrinsicContentSizeChallengeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07FEF8FA287B4ECF00B0335C /* IntrinsicContentSizeChallengeViewController.swift */; };
 		07FEF8FD287B4EF400B0335C /* Factories.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07FEF8FC287B4EF400B0335C /* Factories.swift */; };
+		07FEF907287CF10400B0335C /* AnchorChallengeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07FEF906287CF10400B0335C /* AnchorChallengeViewController.swift */; };
+		07FEF90B287CF60600B0335C /* CustomViewChallenge.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07FEF90A287CF60600B0335C /* CustomViewChallenge.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -38,8 +40,10 @@
 		07BD4643287373CC00267F10 /* CHCRViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CHCRViewController.swift; sourceTree = "<group>"; };
 		07FEF8C22878B0D800B0335C /* ImageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageViewController.swift; sourceTree = "<group>"; };
 		07FEF8C42878B20200B0335C /* Utils+Color.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Utils+Color.swift"; sourceTree = "<group>"; };
-		07FEF8FA287B4ECF00B0335C /* ChallengeTwoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChallengeTwoViewController.swift; sourceTree = "<group>"; };
+		07FEF8FA287B4ECF00B0335C /* IntrinsicContentSizeChallengeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IntrinsicContentSizeChallengeViewController.swift; sourceTree = "<group>"; };
 		07FEF8FC287B4EF400B0335C /* Factories.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Factories.swift; sourceTree = "<group>"; };
+		07FEF906287CF10400B0335C /* AnchorChallengeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnchorChallengeViewController.swift; sourceTree = "<group>"; };
+		07FEF90A287CF60600B0335C /* CustomViewChallenge.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomViewChallenge.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,10 +105,36 @@
 		07FEF8F9287B4E1D00B0335C /* Challenges */ = {
 			isa = PBXGroup;
 			children = (
-				07FEF8FA287B4ECF00B0335C /* ChallengeTwoViewController.swift */,
 				07FEF8FC287B4EF400B0335C /* Factories.swift */,
+				07FEF908287CF51A00B0335C /* Intrinsic Content Size */,
+				07FEF905287CF0ED00B0335C /* Anchor */,
+				07FEF909287CF5EA00B0335C /* Stack Views */,
 			);
 			name = Challenges;
+			sourceTree = "<group>";
+		};
+		07FEF905287CF0ED00B0335C /* Anchor */ = {
+			isa = PBXGroup;
+			children = (
+				07FEF906287CF10400B0335C /* AnchorChallengeViewController.swift */,
+			);
+			name = Anchor;
+			sourceTree = "<group>";
+		};
+		07FEF908287CF51A00B0335C /* Intrinsic Content Size */ = {
+			isa = PBXGroup;
+			children = (
+				07FEF8FA287B4ECF00B0335C /* IntrinsicContentSizeChallengeViewController.swift */,
+			);
+			name = "Intrinsic Content Size";
+			sourceTree = "<group>";
+		};
+		07FEF909287CF5EA00B0335C /* Stack Views */ = {
+			isa = PBXGroup;
+			children = (
+				07FEF90A287CF60600B0335C /* CustomViewChallenge.swift */,
+			);
+			name = "Stack Views";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -178,10 +208,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				07843A97286AAA1E00EC0B65 /* AnchorViewController.swift in Sources */,
+				07FEF907287CF10400B0335C /* AnchorChallengeViewController.swift in Sources */,
 				07FEF8C52878B20200B0335C /* Utils+Color.swift in Sources */,
 				07FEF8C32878B0D800B0335C /* ImageViewController.swift in Sources */,
 				07843AAC286BDB7A00EC0B65 /* DefaultMarginGuideViewController.swift in Sources */,
-				07FEF8FB287B4ECF00B0335C /* ChallengeTwoViewController.swift in Sources */,
+				07FEF90B287CF60600B0335C /* CustomViewChallenge.swift in Sources */,
+				07FEF8FB287B4ECF00B0335C /* IntrinsicContentSizeChallengeViewController.swift in Sources */,
 				07BD4644287373CC00267F10 /* CHCRViewController.swift in Sources */,
 				07FEF8FD287B4EF400B0335C /* Factories.swift in Sources */,
 				07843AAE286BDDDA00EC0B65 /* LayoutMarginViewController.swift in Sources */,

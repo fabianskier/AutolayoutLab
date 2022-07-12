@@ -15,7 +15,8 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         
         window = UIWindow(frame: UIScreen.main.bounds)
         window?.makeKeyAndVisible()
-        window?.backgroundColor = .white
+        window?.backgroundColor = .systemBackground
+        
         // window?.rootViewController = AnchorViewController()
         // window?.rootViewController = SafeAreaViewController()
         // window?.rootViewController = DefaultMarginGuideViewController()
@@ -25,7 +26,19 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         // window?.rootViewController = CHCRViewController()
         // window?.rootViewController = ImageViewController()
         
-        let navigatorController = UINavigationController(rootViewController: ChallengeTwoViewController())
+        // Anchor challenge
+        // window?.backgroundColor = .black
+        // let navigatorController = UINavigationController(rootViewController: AnchorChallengeViewController())
+        // window?.rootViewController = navigatorController
+        
+        // Intrinsic content size challenge
+        // window?.backgroundColor = .white
+        // let navigatorController = UINavigationController(rootViewController: IntrinsicContentSizeChallengeViewController())
+        // window?.rootViewController = navigatorController
+        
+        // StackViews challenge
+        window?.backgroundColor = .white
+        let navigatorController = UINavigationController(rootViewController: CustomViewChallenge())
         window?.rootViewController = navigatorController
         
         return true
