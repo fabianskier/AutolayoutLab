@@ -23,6 +23,8 @@
 		07FEF8FD287B4EF400B0335C /* Factories.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07FEF8FC287B4EF400B0335C /* Factories.swift */; };
 		07FEF907287CF10400B0335C /* AnchorChallengeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07FEF906287CF10400B0335C /* AnchorChallengeViewController.swift */; };
 		07FEF90B287CF60600B0335C /* CustomViewChallenge.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07FEF90A287CF60600B0335C /* CustomViewChallenge.swift */; };
+		07FEF90F287CF7A300B0335C /* RowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07FEF90E287CF7A300B0335C /* RowView.swift */; };
+		07FEF911287CF9AD00B0335C /* CrossfadeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07FEF910287CF9AD00B0335C /* CrossfadeView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -44,6 +46,8 @@
 		07FEF8FC287B4EF400B0335C /* Factories.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Factories.swift; sourceTree = "<group>"; };
 		07FEF906287CF10400B0335C /* AnchorChallengeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnchorChallengeViewController.swift; sourceTree = "<group>"; };
 		07FEF90A287CF60600B0335C /* CustomViewChallenge.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomViewChallenge.swift; sourceTree = "<group>"; };
+		07FEF90E287CF7A300B0335C /* RowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RowView.swift; sourceTree = "<group>"; };
+		07FEF910287CF9AD00B0335C /* CrossfadeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CrossfadeView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -133,6 +137,8 @@
 			isa = PBXGroup;
 			children = (
 				07FEF90A287CF60600B0335C /* CustomViewChallenge.swift */,
+				07FEF90E287CF7A300B0335C /* RowView.swift */,
+				07FEF910287CF9AD00B0335C /* CrossfadeView.swift */,
 			);
 			name = "Stack Views";
 			sourceTree = "<group>";
@@ -208,7 +214,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				07843A97286AAA1E00EC0B65 /* AnchorViewController.swift in Sources */,
+				07FEF90F287CF7A300B0335C /* RowView.swift in Sources */,
 				07FEF907287CF10400B0335C /* AnchorChallengeViewController.swift in Sources */,
+				07FEF911287CF9AD00B0335C /* CrossfadeView.swift in Sources */,
 				07FEF8C52878B20200B0335C /* Utils+Color.swift in Sources */,
 				07FEF8C32878B0D800B0335C /* ImageViewController.swift in Sources */,
 				07843AAC286BDB7A00EC0B65 /* DefaultMarginGuideViewController.swift in Sources */,
