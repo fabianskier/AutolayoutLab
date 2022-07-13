@@ -11,6 +11,39 @@ import UIKit
 let buttonHeight: CGFloat = 40
 let margin8: CGFloat = 8
 
+// MARK: - Labels
+func makeNudgeLabel(withText text: String) -> UILabel {
+    let label = UILabel()
+    label.translatesAutoresizingMaskIntoConstraints = false // important!
+    label.backgroundColor = .yellow
+    label.textAlignment = .center
+    label.numberOfLines = 0
+    label.text = text
+    
+    return label
+}
+
+func makeNudgeLabel(withText text: String, size: CGFloat) -> UILabel {
+    let label = makeLabel(withText: text)
+    label.font = UIFont.systemFont(ofSize: size)
+    
+    return label
+}
+
+func makeNudgeLabel(withText text: String, size: CGFloat, color: UIColor) -> UILabel {
+    let label = makeNudgeLabel(withText: text, size: size)
+    label.backgroundColor = color
+    
+    return label
+}
+
+func makeSecondaryLabel(withText text: String) -> UILabel {
+    let label = makeNudgeLabel(withText: text, size: 12)
+    label.textColor = .gray
+    
+    return label
+}
+
 func makeLabel(withText text: String) -> UILabel {
     let label = UILabel()
     label.translatesAutoresizingMaskIntoConstraints = false
@@ -156,6 +189,43 @@ func makeSpotifyButton(withText title: String) -> UIButton {
     button.setAttributedTitle(attributedText, for: .normal) // Note how not button.setTitle()
     
     return button
+}
+
+// MARK: - Misc
+func makeTextField(withPlaceholderText placeHolderText: String) -> UITextField {
+    let textField = UITextField()
+    textField.translatesAutoresizingMaskIntoConstraints = false
+    textField.placeholder = placeHolderText
+    textField.backgroundColor = .orange
+    
+    return textField
+}
+
+
+func makeView(color: UIColor = .red) -> UIView {
+    let view = UIView()
+    view.translatesAutoresizingMaskIntoConstraints = false
+    view.backgroundColor = color
+    
+    return view
+}
+
+func makeScrollView() -> UIScrollView {
+    let scrollView = UIScrollView()
+    scrollView.translatesAutoresizingMaskIntoConstraints = false
+    
+    return scrollView
+}
+
+public func makeSpacerView(height: CGFloat? = nil) -> UIView {
+    let spacerView = UIView(frame: .zero)
+    
+    if let height = height {
+        spacerView.heightAnchor.constraint(equalToConstant: height).setActiveBreakable()
+    }
+    spacerView.translatesAutoresizingMaskIntoConstraints = false
+    
+    return spacerView
 }
 
 extension UIColor {
