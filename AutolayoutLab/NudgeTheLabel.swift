@@ -11,7 +11,7 @@ import UIKit
 class NudgeTheLabel: UIViewController {
     
     var stackView: UIStackView
-    let blueView = BlueView()
+    let blueView = AdjustSpacersBlueView()
     
     init() {
         stackView = makeStackView(withOrientation: .vertical)

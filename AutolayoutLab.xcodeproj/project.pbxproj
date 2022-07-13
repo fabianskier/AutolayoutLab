@@ -28,6 +28,7 @@
 		07FEF914287E44A600B0335C /* NudgeTheLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07FEF913287E44A600B0335C /* NudgeTheLabel.swift */; };
 		07FEF916287E44BC00B0335C /* BlueView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07FEF915287E44BC00B0335C /* BlueView.swift */; };
 		07FEF918287E44D400B0335C /* RedView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07FEF917287E44D400B0335C /* RedView.swift */; };
+		07FEF91A287E4F3E00B0335C /* AdjustSpacersBlueView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07FEF919287E4F3E00B0335C /* AdjustSpacersBlueView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -54,6 +55,7 @@
 		07FEF913287E44A600B0335C /* NudgeTheLabel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NudgeTheLabel.swift; sourceTree = "<group>"; };
 		07FEF915287E44BC00B0335C /* BlueView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BlueView.swift; sourceTree = "<group>"; };
 		07FEF917287E44D400B0335C /* RedView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RedView.swift; sourceTree = "<group>"; };
+		07FEF919287E4F3E00B0335C /* AdjustSpacersBlueView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdjustSpacersBlueView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -156,6 +158,7 @@
 				07FEF913287E44A600B0335C /* NudgeTheLabel.swift */,
 				07FEF915287E44BC00B0335C /* BlueView.swift */,
 				07FEF917287E44D400B0335C /* RedView.swift */,
+				07FEF919287E4F3E00B0335C /* AdjustSpacersBlueView.swift */,
 			);
 			name = "Adaptive Layout";
 			sourceTree = "<group>";
@@ -235,6 +238,7 @@
 				07FEF907287CF10400B0335C /* AnchorChallengeViewController.swift in Sources */,
 				07FEF911287CF9AD00B0335C /* CrossfadeView.swift in Sources */,
 				07FEF8C52878B20200B0335C /* Utils+Color.swift in Sources */,
+				07FEF91A287E4F3E00B0335C /* AdjustSpacersBlueView.swift in Sources */,
 				07FEF8C32878B0D800B0335C /* ImageViewController.swift in Sources */,
 				07843AAC286BDB7A00EC0B65 /* DefaultMarginGuideViewController.swift in Sources */,
 				07FEF90B287CF60600B0335C /* CustomViewChallenge.swift in Sources */,
