@@ -24,7 +24,7 @@ func makeNudgeLabel(withText text: String) -> UILabel {
 }
 
 func makeNudgeLabel(withText text: String, size: CGFloat) -> UILabel {
-    let label = makeLabel(withText: text)
+    let label = makeNudgeLabel(withText: text)
     label.font = UIFont.systemFont(ofSize: size)
     
     return label
