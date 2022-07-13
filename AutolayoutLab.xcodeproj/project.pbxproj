@@ -25,6 +25,9 @@
 		07FEF90B287CF60600B0335C /* CustomViewChallenge.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07FEF90A287CF60600B0335C /* CustomViewChallenge.swift */; };
 		07FEF90F287CF7A300B0335C /* RowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07FEF90E287CF7A300B0335C /* RowView.swift */; };
 		07FEF911287CF9AD00B0335C /* CrossfadeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07FEF910287CF9AD00B0335C /* CrossfadeView.swift */; };
+		07FEF914287E44A600B0335C /* NudgeTheLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07FEF913287E44A600B0335C /* NudgeTheLabel.swift */; };
+		07FEF916287E44BC00B0335C /* BlueView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07FEF915287E44BC00B0335C /* BlueView.swift */; };
+		07FEF918287E44D400B0335C /* RedView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07FEF917287E44D400B0335C /* RedView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -48,6 +51,9 @@
 		07FEF90A287CF60600B0335C /* CustomViewChallenge.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomViewChallenge.swift; sourceTree = "<group>"; };
 		07FEF90E287CF7A300B0335C /* RowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RowView.swift; sourceTree = "<group>"; };
 		07FEF910287CF9AD00B0335C /* CrossfadeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CrossfadeView.swift; sourceTree = "<group>"; };
+		07FEF913287E44A600B0335C /* NudgeTheLabel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NudgeTheLabel.swift; sourceTree = "<group>"; };
+		07FEF915287E44BC00B0335C /* BlueView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BlueView.swift; sourceTree = "<group>"; };
+		07FEF917287E44D400B0335C /* RedView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RedView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -113,6 +119,7 @@
 				07FEF908287CF51A00B0335C /* Intrinsic Content Size */,
 				07FEF905287CF0ED00B0335C /* Anchor */,
 				07FEF909287CF5EA00B0335C /* Stack Views */,
+				07FEF912287E447400B0335C /* Adaptive Layout */,
 			);
 			name = Challenges;
 			sourceTree = "<group>";
@@ -141,6 +148,16 @@
 				07FEF910287CF9AD00B0335C /* CrossfadeView.swift */,
 			);
 			name = "Stack Views";
+			sourceTree = "<group>";
+		};
+		07FEF912287E447400B0335C /* Adaptive Layout */ = {
+			isa = PBXGroup;
+			children = (
+				07FEF913287E44A600B0335C /* NudgeTheLabel.swift */,
+				07FEF915287E44BC00B0335C /* BlueView.swift */,
+				07FEF917287E44D400B0335C /* RedView.swift */,
+			);
+			name = "Adaptive Layout";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -224,10 +241,13 @@
 				07FEF8FB287B4ECF00B0335C /* IntrinsicContentSizeChallengeViewController.swift in Sources */,
 				07BD4644287373CC00267F10 /* CHCRViewController.swift in Sources */,
 				07FEF8FD287B4EF400B0335C /* Factories.swift in Sources */,
+				07FEF918287E44D400B0335C /* RedView.swift in Sources */,
 				07843AAE286BDDDA00EC0B65 /* LayoutMarginViewController.swift in Sources */,
 				07843AA9286BD45000EC0B65 /* SafeAreaViewController.swift in Sources */,
+				07FEF914287E44A600B0335C /* NudgeTheLabel.swift in Sources */,
 				07BD464228736C3B00267F10 /* IntrinsicContentSizeInactionViewController.swift in Sources */,
 				07843A93286AAA1E00EC0B65 /* AppDelegate.swift in Sources */,
+				07FEF916287E44BC00B0335C /* BlueView.swift in Sources */,
 				07843AB0286BF48C00EC0B65 /* ReadableContentGuideViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

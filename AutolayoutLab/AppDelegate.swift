@@ -37,8 +37,13 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         // window?.rootViewController = navigatorController
         
         // StackViews challenge
+        // window?.backgroundColor = .white
+        // let navigatorController = UINavigationController(rootViewController: CustomViewChallenge())
+        // window?.rootViewController = navigatorController
+        
+        // Adaptive layout challenge
         window?.backgroundColor = .white
-        let navigatorController = UINavigationController(rootViewController: CustomViewChallenge())
+        let navigatorController = UINavigationController(rootViewController: NudgeTheLabel())
         window?.rootViewController = navigatorController
         
         return true
